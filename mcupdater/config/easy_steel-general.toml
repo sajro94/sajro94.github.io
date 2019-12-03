@@ -1,0 +1,52 @@
+
+#Cassiterite Ore Generation
+[cassiterite_ore]
+	#Chances of Cassiterite Ore pocket being generated [0-100, default: 25]
+	#Range: 0 ~ 100
+	cassiteriteOreChance = 25
+	#Generate Cassiterite Ore in the world [true / false]
+	cassiteriteOreGeneration = true
+	#Maximal height for Cassiterite Ore pocket generation [0-255, default: 200]
+	#Range: 0 ~ 255
+	cassiteriteOreMaxHeight = 200
+	#Minimal height for Cassiterite Ore pocket generation, [0-255, default: 1]
+	#Range: 0 ~ 255
+	cassiteriteOreMinHeight = 1
+	#Size of Cassiterite Ore pockets [0-100, default: 9]
+	#Range: 0 ~ 100
+	cassiteriteOreSize = 9
+
+#Wolframite Ore Generation
+[wolframite_ore]
+	#Size of Wolframite Ore pockets [0-100, default: 5]
+	#Range: 0 ~ 100
+	wolframiteOreSize = 4
+	#Minimal height for Wolframite Ore pocket generation, [0-255, default: 1]
+	#Range: 0 ~ 255
+	wolframiteOreMinHeight = 1
+	#Chances of Wolframite Ore pocket being generated [0-100, default: 6]
+	#Range: 0 ~ 100
+	wolframiteOreChance = 4
+	#Generate Wolframite Ore in the world [true / false]
+	wolframiteOreGeneration = true
+	#Maximal height for Wolframite Ore pocket generation [0-255, default: 200]
+	#Range: 0 ~ 255
+	wolframiteOreMaxHeight = 15
+
+#Bornite Ore Generation
+[bornite_ore]
+	#Generate Bornite Ore in the world [true / false]
+	borniteOreGeneration = true
+	#Chances of Bornite Ore pocket being generated [0-100, default: 25]
+	#Range: 0 ~ 100
+	borniteOreChance = 25
+	#Minimal height for Bornite Ore pocket generation, [0-255, default: 1]
+	#Range: 0 ~ 255
+	borniteOreMinHeight = 1
+	#Size of Bornite Ore pockets [0-100, default: 12]
+	#Range: 0 ~ 100
+	borniteOreSize = 12
+	#Maximal height for Bornite Ore pocket generation [0-255, default: 200]
+	#Range: 0 ~ 255
+	borniteOreMaxHeight = 200
+
