@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="rolltheblock" abstract="false" name="Roll The Block" newsUrl="about:blank" version="1.14.4" generateList="true" autoConnect="true" revision="1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
-		<Import url="http://sajro94.github.io/mcupdater/forge-28.1.96.jar">forge</Import>
+		<Loader type="Forge" version="28.1.96" loadOrder="0"/>
 		<Module name="Apotheosis-1.14.4-2.4.4" id="apotheosis" depends="" side="BOTH">
 			<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/mods/Apotheosis-1.14.4-2.4.4.jar</URL>
 			<Size>517028</Size>
@@ -152,12 +152,6 @@
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>60702b24fcfb146865b73ddcdb634788</MD5>
 			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/xnet-client.toml</URL>
-				<Path>config/xnet-client.toml</Path>
-				<NoOverwrite>true</NoOverwrite>
-				<MD5>430c1c47a50f47905478ee8c998a6b4c</MD5>
-			</ConfigFile>
 		</Module>
 		<Module name="EnchantmentDescriptions-1.14.4-1.3.8" id="enchantmentdescriptions" depends="" side="BOTH">
 			<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/mods/EnchantmentDescriptions-1.14.4-1.3.8.jar</URL>
@@ -173,6 +167,19 @@
 			<ModType>Regular</ModType>
 			<MD5>946c2a5a41fb0ad2b74181972ed20b8b</MD5>
 		</Module>
+		<Module name="forge-28.1.96" id="forge" depends="" side="BOTH">
+			<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/forge-28.1.96.jar</URL>
+			<Size>182304</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>70d29d6c4aba43ae8701942289e6cc08</MD5>
+			<ConfigFile>
+				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/forge-client.toml</URL>
+				<Path>config/forge-client.toml</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>f14d3d0a1df11750d4d1a6ca28b48363</MD5>
+			</ConfigFile>
+		</Module>
 		<Module name="Harvest-forge-1.14.4-1.2.10-23" id="harvestforge" depends="" side="BOTH">
 			<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/mods/Harvest-forge-1.14.4-1.2.10-23.jar</URL>
 			<Size>13823</Size>
@@ -184,6 +191,19 @@
 				<Path>config/harvest.json</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>a319f3a455ecc506428379f4e338d112</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="installer" id="installer" depends="" side="BOTH">
+			<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/installer.jar</URL>
+			<Size>8023018</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e083597382a271574c7b0d480a9031b3</MD5>
+			<ConfigFile>
+				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/xnet-client.toml</URL>
+				<Path>config/xnet-client.toml</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>430c1c47a50f47905478ee8c998a6b4c</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="jei-1.14.4-6.0.0.25" id="jei" depends="" side="BOTH">
@@ -228,12 +248,6 @@
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<ConfigFile>
-				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/forge-client.toml</URL>
-				<Path>config/forge-client.toml</Path>
-				<NoOverwrite>true</NoOverwrite>
-				<MD5>f14d3d0a1df11750d4d1a6ca28b48363</MD5>
-			</ConfigFile>
 		</Module>
 		<Module name="modular-routers-1.14.4-5.1.2-7" id="modularrouters" depends="" side="BOTH">
 			<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/mods/modular-routers-1.14.4-5.1.2-7.jar</URL>
