@@ -86,11 +86,6 @@
 			<ModType>Regular</ModType>
 			<MD5>f43f13e719309fe51b0c47f134506d55</MD5>
 		</Module>
-		<Module name="Minecraft Forge" id="forge-28.1.96" depends="" side="BOTH">
-			<Size>100000</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-		</Module>
 		<Module name="modular-routers-1.14.4-5.1.2-7" id="modularrouters" depends="" side="BOTH">
 			<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/modular-routers-1.14.4-5.1.2-7.jar</URL>
 			<Size>753197</Size>
