@@ -2,6 +2,9 @@
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="rolltheblock" abstract="false" name="Roll The Block" newsUrl="about:blank" version="1.14.4" generateList="true" autoConnect="true" revision="1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Loader type="Forge" version="28.1.96" loadOrder="0"/>
+		<Import>
+
+		</Import>
 		<Module name="Apotheosis-1.14.4-2.4.4" id="apotheosis" depends="" side="BOTH">
 			<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/mods/Apotheosis-1.14.4-2.4.4.jar</URL>
 			<Size>517028</Size>
