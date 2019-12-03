@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="rollTheBlock" abstract="false" name="RTB: Roll The Block" newsUrl="about:blank" version="1.14.4" generateList="true" autoConnect="true" revision="1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="New">
-		<Loader type="Forge" version="1.14.4-28.1.96" loadOrder="0"/>
+	<Server id="rolltheblock" abstract="false" name="Roll The Block" newsUrl="about:blank" version="1.14.4" generateList="true" autoConnect="true" revision="1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+		<Loader type="Forge" version="28.1.96" loadOrder="0"/>
 		<Module name="Apotheosis-1.14.4-2.4.4" id="apotheosis" depends="" side="BOTH">
 			<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/mods/Apotheosis-1.14.4-2.4.4.jar</URL>
 			<Size>517028</Size>
@@ -95,6 +95,12 @@
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>9d8dac7d37539277857bbd9836dcb100</MD5>
+			<ConfigFile>
+				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/jeresources-common.toml</URL>
+				<Path>config/jeresources-common.toml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>47942694e15bbca82a2b378ca91423c0</MD5>
+			</ConfigFile>
 		</Module>
 		<Module name="curios-FORGE-1.14.4-1.0.5.3" id="curiosforge" depends="" side="BOTH">
 			<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/mods/curios-FORGE-1.14.4-1.0.5.3.jar</URL>
@@ -102,6 +108,30 @@
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>c65048cf981c46a567832a3f5f4aef77</MD5>
+			<ConfigFile>
+				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/curios-client.toml</URL>
+				<Path>config/curios-client.toml</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>034f505c707f2472daab26319ffd0a6a</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/curios-common.toml</URL>
+				<Path>config/curios-common.toml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>19c86d55b5a54fd1babb3be82531dbf2</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/jeresources.toml</URL>
+				<Path>config/jeresources.toml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a65cf7ce5375b2b9f20782c139773f64</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/mcjtylib-common.toml</URL>
+				<Path>config/mcjtylib-common.toml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8765310e6d49cae08571b9cfe3300017</MD5>
+			</ConfigFile>
 		</Module>
 		<Module name="DarkUtilities-1.14.4-2.0.3" id="darkutilities" depends="" side="BOTH">
 			<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/mods/DarkUtilities-1.14.4-2.0.3.jar</URL>
@@ -121,6 +151,12 @@
 				<Path>config/easy_steel-general.toml</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>60702b24fcfb146865b73ddcdb634788</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/xnet-client.toml</URL>
+				<Path>config/xnet-client.toml</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>430c1c47a50f47905478ee8c998a6b4c</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="EnchantmentDescriptions-1.14.4-1.3.8" id="enchantmentdescriptions" depends="" side="BOTH">
@@ -157,10 +193,22 @@
 			<ModType>Regular</ModType>
 			<MD5>1d6d8cc69b4480c27db34c7281b8e6e4</MD5>
 			<ConfigFile>
+				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/fml.toml</URL>
+				<Path>config/fml.toml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>5961f97ddaa04677acd58a89aaf3826c</MD5>
+			</ConfigFile>
+			<ConfigFile>
 				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/jei/bookmarks.ini</URL>
 				<Path>config/jei/bookmarks.ini</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>93170a5dc6d89a0b0cf4e7be9b96c6a5</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/malilib.json</URL>
+				<Path>config/malilib.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>644a52090e2d22f9f5ecda2a4120b9de</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="MCFurnace-1.14.4-DEV-1.3.2" id="mcfurnace" depends="" side="BOTH">
@@ -169,66 +217,23 @@
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>f43f13e719309fe51b0c47f134506d55</MD5>
-		</Module>
-		<Module name="Mine and Slash-1.14.4-2.9.3" id="mineandslash" depends="" side="BOTH">
-			<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/mods/Mine%20and%20Slash-1.14.4-2.9.3.jar</URL>
-			<Size>5526583</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>152e44187f80c22f723836739b801368</MD5>
 			<ConfigFile>
-				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/Mine%20and%20Slash/compatible_items/CompatibleItems.txt</URL>
-				<Path>config/Mine and Slash/compatible_items/CompatibleItems.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>666f6adaa09f08ee0ea8925862cc5f70</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/Mine%20and%20Slash/DimensionConfigs.txt</URL>
-				<Path>config/Mine and Slash/DimensionConfigs.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>d0b2451b3ed2b999c93b5d19be7983c4</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/Mine%20and%20Slash/ModDamageWhitelist.txt</URL>
-				<Path>config/Mine and Slash/ModDamageWhitelist.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>55c3af52d47cd79abfb163c71f1e21ba</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/Mine%20and%20Slash/ModEntityConfigs.txt</URL>
-				<Path>config/Mine and Slash/ModEntityConfigs.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>bfe8fad042c808b9d8aa5a6d787fc93a</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/Mine%20and%20Slash/talents.csv</URL>
-				<Path>config/Mine and Slash/talents.csv</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>aff5d944728c0fbb32da7906a4fdb83a</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/Mine%20and%20Slash/tutorials/GearTypeGUIDS-TUTORIAL.txt</URL>
-				<Path>config/Mine and Slash/tutorials/GearTypeGUIDS-TUTORIAL.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>15a151ada9726cf2386a96ebe693fed0</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/Mine%20and%20Slash/tutorials/TalentPerkEffects.txt</URL>
-				<Path>config/Mine and Slash/tutorials/TalentPerkEffects.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>c180f1a421aa95f1c97718cc18bab624</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/Mine%20and%20Slash/tutorials/UniqueItemGUIDS-TUTORIAL.txt</URL>
-				<Path>config/Mine and Slash/tutorials/UniqueItemGUIDS-TUTORIAL.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>a773652bf08558f69d8257c575e3f1d2</MD5>
+				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/mcjtylib-client.toml</URL>
+				<Path>config/mcjtylib-client.toml</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>bae42d4843bfd09b0fdd397993b4e243</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Minecraft Forge" id="forge-28.1.96" depends="" side="BOTH">
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
+			<ConfigFile>
+				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/forge-client.toml</URL>
+				<Path>config/forge-client.toml</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>f14d3d0a1df11750d4d1a6ca28b48363</MD5>
+			</ConfigFile>
 		</Module>
 		<Module name="modular-routers-1.14.4-5.1.2-7" id="modularrouters" depends="" side="BOTH">
 			<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/mods/modular-routers-1.14.4-5.1.2-7.jar</URL>
@@ -275,18 +280,6 @@
 				<url>http://www.curse.com/mc-mods/Minecraft/morpheus</url>
 				<authors>Quetzi</authors>
 			</Meta>
-			<ConfigFile>
-				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/mmorpg-client.toml</URL>
-				<Path>config/mmorpg-client.toml</Path>
-				<NoOverwrite>true</NoOverwrite>
-				<MD5>19953007e9015040abda8a83c0344477</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/mmorpg-common.toml</URL>
-				<Path>config/mmorpg-common.toml</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>2953b7d72ba9bf9b6823536681b58b9f</MD5>
-			</ConfigFile>
 		</Module>
 		<Module name="MouseTweaks-2.12-mc1.14.4" id="mousetweaks" depends="" side="BOTH">
 			<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/mods/MouseTweaks-2.12-mc1.14.4.jar</URL>
@@ -308,91 +301,6 @@
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>6155a243cba35f92de2224d9ad0a1ebc</MD5>
-		</Module>
-		<Module name="server" id="" depends="" side="BOTH">
-			<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/mods/server.properties</URL>
-			<Size>948</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>b95a20cbde124715be462598f1fd8903</MD5>
-			<ConfigFile>
-				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/curios-client.toml</URL>
-				<Path>config/curios-client.toml</Path>
-				<NoOverwrite>true</NoOverwrite>
-				<MD5>034f505c707f2472daab26319ffd0a6a</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/curios-common.toml</URL>
-				<Path>config/curios-common.toml</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>19c86d55b5a54fd1babb3be82531dbf2</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/fml.toml</URL>
-				<Path>config/fml.toml</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>5961f97ddaa04677acd58a89aaf3826c</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/forge-client.toml</URL>
-				<Path>config/forge-client.toml</Path>
-				<NoOverwrite>true</NoOverwrite>
-				<MD5>f14d3d0a1df11750d4d1a6ca28b48363</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/jeresources-common.toml</URL>
-				<Path>config/jeresources-common.toml</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>47942694e15bbca82a2b378ca91423c0</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/jeresources.toml</URL>
-				<Path>config/jeresources.toml</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>a65cf7ce5375b2b9f20782c139773f64</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/malilib.json</URL>
-				<Path>config/malilib.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>644a52090e2d22f9f5ecda2a4120b9de</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/mcjtylib-client.toml</URL>
-				<Path>config/mcjtylib-client.toml</Path>
-				<NoOverwrite>true</NoOverwrite>
-				<MD5>bae42d4843bfd09b0fdd397993b4e243</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/mcjtylib-common.toml</URL>
-				<Path>config/mcjtylib-common.toml</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>8765310e6d49cae08571b9cfe3300017</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/rftoolsbase-common.toml</URL>
-				<Path>config/rftoolsbase-common.toml</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>fd02060dbf265ecdcffb43c94204b0af</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/xaerominimap.txt</URL>
-				<Path>config/xaerominimap.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>64d6e9bae70717d65d78ec99987bb99c</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/xaeropatreon.txt</URL>
-				<Path>config/xaeropatreon.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>82f395c2aa8d41d4e8d8bdfde7044b3c</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/xnet-client.toml</URL>
-				<Path>config/xnet-client.toml</Path>
-				<NoOverwrite>true</NoOverwrite>
-				<MD5>430c1c47a50f47905478ee8c998a6b4c</MD5>
-			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/xnet-common.toml</URL>
 				<Path>config/xnet-common.toml</Path>
@@ -427,19 +335,18 @@
 				<MD5>44f0afd9de0ecac32897bacdd215f83d</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="test" id="test" depends="" side="BOTH">
-			<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/test.txt</URL>
-			<Size>0</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>d41d8cd98f00b204e9800998ecf8427e</MD5>
-		</Module>
 		<Module name="tombstone-4.1.7-1.14.4" id="tombstone" depends="" side="BOTH">
 			<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/mods/tombstone-4.1.7-1.14.4.jar</URL>
 			<Size>962976</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>9cbecf95bedfa1c871083de9723df666</MD5>
+			<ConfigFile>
+				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/rftoolsbase-common.toml</URL>
+				<Path>config/rftoolsbase-common.toml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>fd02060dbf265ecdcffb43c94204b0af</MD5>
+			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/tombstone-client.toml</URL>
 				<Path>config/tombstone-client.toml</Path>
@@ -466,6 +373,18 @@
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>4aa395c3f1c690815d291009fe2e9a69</MD5>
+			<ConfigFile>
+				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/xaerominimap.txt</URL>
+				<Path>config/xaerominimap.txt</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>64d6e9bae70717d65d78ec99987bb99c</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://sajro94.github.io/mcupdater/RollTheBlock/config/xaeropatreon.txt</URL>
+				<Path>config/xaeropatreon.txt</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>82f395c2aa8d41d4e8d8bdfde7044b3c</MD5>
+			</ConfigFile>
 		</Module>
 	</Server>
 </ServerPack>

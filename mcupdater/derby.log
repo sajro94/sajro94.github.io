@@ -1,6 +1,6 @@
 ----------------------------------------------------------------
-Mon Dec 02 15:29:43 CET 2019:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.1.0 - (1808820): instance a816c00e-016e-c704-6181-00000d9c35b0 
+Tue Dec 03 17:04:27 CET 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.1.0 - (1808820): instance a816c00e-016e-cc81-797c-00000d870320 
 on database directory C:\Users\Flemming\AppData\Roaming\.MCUpdater\database with class loader sun.misc.Launcher$AppClassLoader@5c647e05 
 Loaded from file:/E:/sajro94.github.io/mcupdater/MCU-FastPack-latest.jar
 java.vendor=Oracle Corporation
