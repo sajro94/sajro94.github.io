@@ -364,5 +364,12 @@
 				<MD5>82f395c2aa8d41d4e8d8bdfde7044b3c</MD5>
 			</ConfigFile>
 		</Module>
+		<Module name="Optifine_1.14.4_HD_U_F4" id="optifine" depends="" side="BOTH">
+			<URL priority="0">http://sajro94.github.io/mcupdater/mods/OptiFine_1.14.4_HD_U_F4_MOD.jar</URL>
+			<Size>4728195</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3f9c98374146c267dc4af03245daa13a</MD5>
+		</Module>
 	</Server>
 </ServerPack>
