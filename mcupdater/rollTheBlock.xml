@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="E:\sajro94.github.io\mcupdater\rollTheBlock.xml" type="text/xsl" ?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="rtb" abstract="false" name="Roll The Block" newsUrl="about:blank" version="1.14.4" generateList="true" autoConnect="false" revision="1" mainClass="cpw.mods.modlauncher.Launcher" launcherType="Vanilla">
-		<Loader type="Forge" version="1.14.4-28.1.0" loadOrder="0"/>
+	<Server id="rtb" abstract="false" name="Roll The Block" newsUrl="about:blank" version="1.14.4" serverAddress="54.38.56.70:25595" generateList="true" autoConnect="false" revision="1" mainClass="cpw.mods.modlauncher.Launcher" launcherType="Vanilla">
+		<Loader type="Forge" version="1.14.4-28.1.96" loadOrder="0"/>
 		<Module name="Apotheosis-1.14.4-2.4.4" id="apotheosis" depends="" side="BOTH">
 			<URL priority="0">http://sajro94.github.io/mcupdater/mods/Apotheosis-1.14.4-2.4.4.jar</URL>
 			<Size>517028</Size>
@@ -352,27 +352,12 @@
 			<ModType>Regular</ModType>
 			<MD5>3f9c98374146c267dc4af03245daa13a</MD5>
 		</Module>
-		<Module name="Tetra" id="tetra" depends="" side="BOTH">
-			<URL priority="0">http://sajro94.github.io/mcupdater/mods/tetra-1.12.2-0.39.1.jar</URL>
-			<Size>2531823</Size>
+		<Module name="PracticalTools" id="practicaltools" depends="" side="BOTH">
+			<URL priority="0">http://sajro94.github.io/mcupdater/mods/practicaltools-1.14.4-1.4.jar</URL>
+			<Size>37613</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>9e9db45a08dd7ca24e2c02a069ca214f</MD5>
-			<Meta>
-				<credits>
-    Translations: VilagVil - Russian, TartaricAcid - Chinese</credits>
-				<description></description>
-				<version>0.39.1</version>
-				<url></url>
-				<authors>Mickelus</authors>
-			</Meta>
-		</Module>
-		<Module name="mgui" id="mgui" depends="" side="BOTH">
-			<URL priority="0">http://sajro94.github.io/mcupdater/mods/mgui-1.14.4-1.0.1.jar</URL>
-			<Size>51956</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>04aabe97f78c984a4a65b1257cb333a6</MD5>
+			<MD5>8ae8548373bb5a86392cba423f95fe96</MD5>
 		</Module>
 	</Server>
 </ServerPack>
