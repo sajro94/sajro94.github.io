@@ -2,7 +2,7 @@
 <?xml-stylesheet href="E:\sajro94.github.io\mcupdater\rollTheBlock.xml" type="text/xsl" ?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="rtb" abstract="false" name="Roll The Block" newsUrl="about:blank" version="1.14.4" generateList="true" autoConnect="false" revision="1" mainClass="cpw.mods.modlauncher.Launcher" launcherType="Vanilla">
-		<Loader type="Forge" version="1.14.4-28.1.96" loadOrder="0"/>
+		<Loader type="Forge" version="1.14.4-28.1.0" loadOrder="0"/>
 		<Module name="Apotheosis-1.14.4-2.4.4" id="apotheosis" depends="" side="BOTH">
 			<URL priority="0">http://sajro94.github.io/mcupdater/mods/Apotheosis-1.14.4-2.4.4.jar</URL>
 			<Size>517028</Size>
