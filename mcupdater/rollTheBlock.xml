@@ -365,6 +365,12 @@
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>ea1f0da73551792b23eedb4b00c63284</MD5>
+			<ConfigFile>
+				<URL priority="0"></URL>
+				<Path>scripts/practicaltools.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5></MD5>
+			</ConfigFile>
 		</Module>
 	</Server>
 </ServerPack>
