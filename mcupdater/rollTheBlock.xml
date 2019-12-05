@@ -359,7 +359,7 @@
 			<ModType>Regular</ModType>
 			<MD5>8ae8548373bb5a86392cba423f95fe96</MD5>
 		</Module>
-		<Module name="CraftTweaker" id="crafttweaker" depends="" side="BOTH">
+		<Module name="CraftTweaker" id="CraftTweaker" depends="" side="BOTH">
 			<URL priority="0">http://sajro94.github.io/mcupdater/mods/CraftTweaker-1.14.4-5.0.1.133.jar</URL>
 			<Size>1624643</Size>
 			<Required>true</Required>
