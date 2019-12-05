@@ -374,12 +374,5 @@
 			<ModType>Regular</ModType>
 			<MD5>04aabe97f78c984a4a65b1257cb333a6</MD5>
 		</Module>
-		<Module name="Practical Tools" id="practicaltools" depends="" side="BOTH">
-			<URL priority="0">http://sajro94.github.io/mcupdater/mods/practicaltools-1.14.4-1.4.jar</URL>
-			<Size>37613</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>8ae8548373bb5a86392cba423f95fe96</MD5>
-		</Module>
 	</Server>
 </ServerPack>
